@@ -7,14 +7,8 @@
           { "page": 2, "url": "https://drive.google.com/file/d/126VpdiAAvNjzpc74YInLwqMCDUGEEBWQ/view?usp=sharing" },
           { "page": 3, "url": "https://drive.google.com/file/d/1KVlU2C24jrZk2LTFy9Mbv8Mc2j2LMw3m/view?usp=sharing" }
         ]
-      },
-      {
-        "title": "Chapter 2",
-        "pages": [
-          { "page": 1, "url": "https://example.com/comics/chapter2/page1.jpg" },
-          { "page": 2, "url": "https://example.com/comics/chapter2/page2.jpg" }
-        ]
       }
+     
     ]
   }
   
