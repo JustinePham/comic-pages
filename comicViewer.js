@@ -65,10 +65,10 @@ function loadPage(pageIndex) {
 
   // Display the resized image
   const comicImage = document.getElementById("comic-image");
-  resizeImage(page.url, 800, 600).then(resizedImageUrl => {
-    comicImage.src = resizedImageUrl;
-  });
-
+//   resizeImage(page.url, 800, 600).then(resizedImageUrl => {
+//     comicImage.src = resizedImageUrl;
+//   });
+    comicImage.src = page.url;
   // Update the page dropdown selection
   document.getElementById("page-select").value = currentPageIndex;
 }
