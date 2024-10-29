@@ -65,9 +65,10 @@ function loadPage(pageIndex) {
 
   // Display the resized image
   const comicImage = document.getElementById("comic-image");
-  resizeImage(page.url, 800, 600).then(resizedImageUrl => {
-    comicImage.src = resizedImageUrl;
-  });
+//   resizeImage(page.url, 800, 600).then(resizedImageUrl => {
+//     comicImage.src = resizedImageUrl;
+//   });
+comicImage.src = page.url;
 // Update the page dropdown selection
   document.getElementById("page-select").value = currentPageIndex;
 }
@@ -88,7 +89,7 @@ async function resizeImage(url, width, height) {
       ctx.drawImage(img, 0, 0, width, height);
 
       // Convert canvas to a base64 URL
-      resolve(canvas.toDataURL("image/jpeg", 0.8)); // Use JPEG and 0.7 quality to reduce size
+      resolve(canvas.toDataURL("image/jpeg", 0.9)); // Use JPEG and 0.7 quality to reduce size
     };
     img.onerror = reject;
     img.src = url;

@@ -1,5 +1,3 @@
 .title {
-    font-family: "Architects Daughter", cursive;
-    font-weight: 400;
-    font-style: bold;
+    font-family: "Architects Daughter", cursive !important;
 }
