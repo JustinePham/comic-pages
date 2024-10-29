@@ -4,8 +4,9 @@ let currentPageIndex = 1;
 
 // Load comic data
 async function loadComicData() {
-  const response = await fetch('./comicData.json');
+  const response = await fetch('https://justinepham.github.io/comic-pages//comicData.json');
   comicData = await response.json();
+  console.log(comicData)
   setupViewer();
 }
 
@@ -29,7 +30,7 @@ function setupViewer() {
   pageSelect.addEventListener("change", (e) => loadPage(e.target.value));
 
   // Load the initial chapter and page
-  loadChapter(0);
+  loadChapter(1);
 }
 
 // Load selected chapter
@@ -51,7 +52,7 @@ function loadChapter(chapterIndex) {
   });
 
   // Load the first page of the selected chapter
-  loadPage(0);
+  loadPage(1);
 }
 
 // Load selected page
