@@ -88,7 +88,7 @@ async function resizeImage(url, width, height) {
       ctx.drawImage(img, 0, 0, width, height);
 
       // Convert canvas to a base64 URL
-      resolve(canvas.toDataURL("image/jpeg", 0.7)); // Use JPEG and 0.7 quality to reduce size
+      resolve(canvas.toDataURL("image/jpeg", 0.9)); // Use JPEG and 0.7 quality to reduce size
     };
     img.onerror = reject;
     img.src = url;
