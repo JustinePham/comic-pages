@@ -4,7 +4,10 @@ let currentPageIndex = 1;
 
 // Load comic data
 async function loadComicData() {
-  const response = await fetch('https://justinepham.github.io/comic-pages//comicData.json');
+  const response = await fetch('https://justinepham.github.io/comic-pages//comicData.json', {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "https://justinepham.github.io/comic-pages"
+  });
   comicData = await response.json();
   console.log(comicData)
   setupViewer();
