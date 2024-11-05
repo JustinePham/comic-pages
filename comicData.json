@@ -31,8 +31,40 @@
           { "page": 25, "url": "https://i.imgur.com/cLeaaDH.jpeg" },
           { "page": 26, "url": "https://i.imgur.com/dpclTxG.jpeg" }
         ]
+      },
+      {
+        "title": "Chapter 2",
+        "pages": [
+          { "page": 1, "url": "https://i.imgur.com/cy0Z4Ko.jpeg" },
+          { "page": 2, "url": "https://i.imgur.com/7OPSpLI.jpeg" },
+          { "page": 3, "url": "https://i.imgur.com/VX9kqUa.jpeg" },
+          { "page": 4, "url": "https://i.imgur.com/Jcct0X5.jpeg" },
+          { "page": 5, "url": "https://i.imgur.com/LfCRLTG.jpeg" },
+          { "page": 6, "url": "https://i.imgur.com/RkyNnKX.jpeg" },
+          
+          { "page": 7, "url": "https://i.imgur.com/wjUeejY.jpeg" },
+          { "page": 8, "url": "https://i.imgur.com/pLjh2M9.jpeg" },
+          { "page": 9, "url": "https://i.imgur.com/xzwMK5c.jpeg" },
+          { "page": 10, "url": "https://i.imgur.com/cilZqOd.jpeg" },
+          { "page": 11, "url": "https://i.imgur.com/s8tayQ0.jpeg" },
+          { "page": 12, "url": "https://i.imgur.com/Hdck8ic.jpeg" },
+          { "page": 13, "url": "https://i.imgur.com/Ud46Ss0.jpeg" },
+          { "page": 14, "url": "https://i.imgur.com/rElyhKr.jpeg" },
+          { "page": 15, "url": "https://i.imgur.com/2S5PaJ2.jpeg" },
+          { "page": 16, "url": "https://i.imgur.com/aH2zkNE.jpeg" },
+          { "page": 17, "url": "https://i.imgur.com/PxKPBfA.jpeg" },
+          { "page": 18, "url": "https://i.imgur.com/Lv2n5gv.jpeg" },
+          { "page": 19, "url": "https://i.imgur.com/Mm6ZHos.jpeg" },
+          { "page": 20, "url": "https://i.imgur.com/6w84EaU.jpeg" },
+          { "page": 21, "url": "https://i.imgur.com/yGJPuI7.jpeg" },
+          { "page": 22, "url": "https://i.imgur.com/mg1eLvY.jpeg" },
+          { "page": 23, "url": "https://i.imgur.com/BxRBHuW.jpeg" },
+          { "page": 24, "url": "https://i.imgur.com/nmtgm55.jpeg" },
+          { "page": 25, "url": "https://i.imgur.com/UBskR7W.jpeg" },
+          { "page": 26, "url": "https://i.imgur.com/DYveqT4.jpeg" }
+           
+        ]
       }
-     
     ]
   }
   
